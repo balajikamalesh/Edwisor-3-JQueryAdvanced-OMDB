@@ -1,0 +1,32 @@
+body{
+	font-family: verdana;
+	background-image: url('http://www.wallpapers4u.org/wp-content/uploads/background_solid_faded_47331_1920x1080.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.jumbotron{
+	box-shadow: 4px 4px 5px #888888;
+	visibility: 0.4;
+}
+
+#NotFound{
+	color: white;
+}
+
+#result{
+	width: 60%;
+	align-self: center;
+}
+
+.card:hover{
+	transform: scale(1.01);
+	transition-duration: 0.3s;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+.card-img-top{
+	height: 350px;
+	align-self: center;
+	width: 40%;
+}

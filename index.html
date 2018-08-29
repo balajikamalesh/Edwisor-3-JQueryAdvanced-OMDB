@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OMDB</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<br>
+
+
+<div class="container">
+	<div class="jumbotron bg-light">
+		<h1>Welcome to OMDB</h1>
+
+		<br>
+
+		<form class="form-inline">
+		  <div class="form-group mb-2">
+		    <label for="imdbid">IMDB Id: </label>
+		    <input type="text" class="form-control" id="imdbid">
+		  </div>
+		  <div class="form-group mx-sm-3 mb-2">
+		    <label for="title" >Title: </label>
+		    <input type="text" class="form-control" id="title">
+		  </div>
+		  <div class="form-group mx-sm-3 mb-2">
+		    <label for="year">Year: </label>
+		    <input type="text" class="form-control" id="year">
+		  </div>
+		  <button type="button" class="btn btn-primary mb-2">Search</button>
+		</form>
+
+		<br>
+	</div>
+</div>
+
+<div class="container d-flex justify-content-center">
+		<div id="result">
+		</div>
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
