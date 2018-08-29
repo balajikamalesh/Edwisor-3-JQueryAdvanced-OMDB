@@ -22,7 +22,7 @@ let getAllData = (imdbid,title,year) => {
 
 	var appKey = '93d7a6d';
 
-	var url = 'http://www.omdbapi.com/?' + 
+	var url = 'https://www.omdbapi.com/?' + 
 				((imdbid.length > 0) ? ('i=' + imdbid) : "" ) + 
 				((title.length > 0 && imdbid.length > 0) ? ('&t=' + title.split(" ").join("+")) : ((title.length > 0) ? ('t=' + title.split(" ").join("+")) : "") ) + 
 				((imdbid.length == 0 && title.length == 0 && year.length > 0) ? ('y=' + year) : ('&y=' + year) )
